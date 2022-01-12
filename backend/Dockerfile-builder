@@ -1,0 +1,9 @@
+FROM gradle:jdk14 as builder
+
+WORKDIR /usr/src/app
+
+# Only copy dependency-related files
+COPY build.gradle gradle.properties settings.gradle /usr/src/app/
+
+# Only download dependencies
+RUN gradle dependencies --info

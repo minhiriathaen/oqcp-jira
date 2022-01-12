@@ -1,0 +1,65 @@
+{
+  "projectId": 12,
+  "branchName": "master",
+  "adviceUrl": "https://open-quality-checker.com/....",
+  "advice": {
+    "id": "WARNING:NullPointerException:99627556",
+    "type": "REFACTORING",
+    "name": "com.expandable.view.ExpandableView",
+    "advice": "Source code element should be refactorred",
+    "significance": 0.7499875000000,
+    "reasons": [
+      {
+        "reason": "This coding issue was created 15 day(s) earlier",
+        "significance": 0.9
+      },
+      {
+        "reason": "This is a Blocker-level warning",
+        "significance": 1.00
+      },
+      {
+        "reason": "Factor based on similar advice assessments",
+        "significance": 1.00
+      },
+      {
+        "reason": "Factor based on similar advice assessments",
+        "significance": 1.00
+      }
+    ],
+    "childAdvices": null,
+    "childMultiplierFactor": 0.99997,
+    "childAdditiveFactor": 0.00001,
+    "target": 358552,
+    "targetTuid": null,
+    "proposedAssessment": null,
+    "proposedAssessmentReason": null,
+    "position": {
+      "path": "ExpandableViewProject\\\\expandableview\\\\src\\\\main\\\\java\\\\com\\\\expandable\\\\view\\\\ExpandableView.java",
+      "line": 25,
+      "col": 1,
+      "endLine": 297,
+      "endCol": 2
+    },
+    "contributors": {
+      "developer.name.1": 1,
+      "developer.name.2": 5,
+      "developer.name.3": "Invalid index value"
+    },
+    "staticReasons": [
+      {
+        "reason": "Quality model score is 5.006494589827923",
+        "significance": 0.75
+      },
+      {
+        "reason": "Number of contributors: 3.0",
+        "significance": 1.00
+      },
+      {
+        "reason": "Number of contributor changes: 2.0",
+        "significance": 1.00
+      }
+    ],
+    "staticSignificance": 0.750000,
+    "assessment": "DISLIKE"
+  }
+}

@@ -1,0 +1,296 @@
+{
+  "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations",
+  "id": "10000",
+  "self": "https://minhiriathaen.atlassian.net/rest/api/3/issue/10000",
+  "key": "TEST-1",
+  "transitions": [
+    {
+      "id": "4",
+      "name": "Start Progress",
+      "to": {
+        "self": "https://minhiriathaen.atlassian.net/rest/api/3/status/3",
+        "description": "This issue is being actively worked on at the moment by the assignee.",
+        "iconUrl": "https://minhiriathaen.atlassian.net/images/icons/statuses/inprogress.png",
+        "name": "In Progress",
+        "id": "3",
+        "statusCategory": {
+          "self": "https://minhiriathaen.atlassian.net/rest/api/3/statuscategory/4",
+          "id": 4,
+          "key": "indeterminate",
+          "colorName": "yellow",
+          "name": "In Progress"
+        }
+      },
+      "hasScreen": false,
+      "isGlobal": false,
+      "isInitial": false,
+      "isAvailable": true,
+      "isConditional": true
+    },
+    {
+      "id": "5",
+      "name": "Resolve Issue",
+      "to": {
+        "self": "https://minhiriathaen.atlassian.net/rest/api/3/status/5",
+        "description": "A resolution has been taken, and it is awaiting verification by reporter. From here issues are either reopened, or are closed.",
+        "iconUrl": "https://minhiriathaen.atlassian.net/images/icons/statuses/resolved.png",
+        "name": "Resolved",
+        "id": "5",
+        "statusCategory": {
+          "self": "https://minhiriathaen.atlassian.net/rest/api/3/statuscategory/3",
+          "id": 3,
+          "key": "done",
+          "colorName": "green",
+          "name": "Done"
+        }
+      },
+      "hasScreen": true,
+      "isGlobal": false,
+      "isInitial": false,
+      "isAvailable": true,
+      "isConditional": true
+    },
+    {
+      "id": "2",
+      "name": "Close Issue",
+      "to": {
+        "self": "https://minhiriathaen.atlassian.net/rest/api/3/status/6",
+        "description": "The issue is considered finished, the resolution is correct. Issues which are closed can be reopened.",
+        "iconUrl": "https://minhiriathaen.atlassian.net/images/icons/statuses/closed.png",
+        "name": "Closed",
+        "id": "6",
+        "statusCategory": {
+          "self": "https://minhiriathaen.atlassian.net/rest/api/3/statuscategory/3",
+          "id": 3,
+          "key": "done",
+          "colorName": "green",
+          "name": "Done"
+        }
+      },
+      "hasScreen": true,
+      "isGlobal": false,
+      "isInitial": false,
+      "isAvailable": true,
+      "isConditional": true
+    }
+  ],
+  "fields": {
+    "statuscategorychangedate": "2020-11-19T13:52:59.634+0000",
+    "issuetype": {
+      "self": "https://minhiriathaen.atlassian.net/rest/api/3/issuetype/10005",
+      "id": "10005",
+      "description": "Parent issue type for testing",
+      "iconUrl": "https://minhiriathaen.atlassian.net/secure/viewavatar?size=medium&avatarId=10300&avatarType=issuetype",
+      "name": "Test parent issue type",
+      "subtask": false,
+      "avatarId": 10300
+    },
+    "timespent": null,
+    "project": {
+      "self": "https://minhiriathaen.atlassian.net/rest/api/3/project/10000",
+      "id": "10000",
+      "key": "TEST",
+      "name": "Test",
+      "projectTypeKey": "software",
+      "simplified": false,
+      "avatarUrls": {
+        "48x48": "https://minhiriathaen.atlassian.net/secure/projectavatar?pid=10000&avatarId=10419",
+        "24x24": "https://minhiriathaen.atlassian.net/secure/projectavatar?size=small&s=small&pid=10000&avatarId=10419",
+        "16x16": "https://minhiriathaen.atlassian.net/secure/projectavatar?size=xsmall&s=xsmall&pid=10000&avatarId=10419",
+        "32x32": "https://minhiriathaen.atlassian.net/secure/projectavatar?size=medium&s=medium&pid=10000&avatarId=10419"
+      }
+    },
+    "fixVersions": [
+    ],
+    "aggregatetimespent": null,
+    "resolution": null,
+    "customfield_10027": [
+    ],
+    "customfield_10028": null,
+    "customfield_10029": null,
+    "resolutiondate": null,
+    "workratio": -1,
+    "issuerestriction": {
+      "issuerestrictions": {
+      },
+      "shouldDisplay": false
+    },
+    "watches": {
+      "self": "https://minhiriathaen.atlassian.net/rest/api/3/issue/TEST-1/watchers",
+      "watchCount": 1,
+      "isWatching": true
+    },
+    "lastViewed": "2020-11-19T13:52:59.580+0000",
+    "created": "2020-11-19T13:50:16.184+0000",
+    "customfield_10020": null,
+    "customfield_10021": null,
+    "customfield_10022": null,
+    "priority": {
+      "self": "https://minhiriathaen.atlassian.net/rest/api/3/priority/3",
+      "iconUrl": "https://minhiriathaen.atlassian.net/images/icons/priorities/medium.svg",
+      "name": "Medium",
+      "id": "3"
+    },
+    "customfield_10023": null,
+    "customfield_10024": null,
+    "customfield_10025": null,
+    "customfield_10026": null,
+    "labels": [
+    ],
+    "customfield_10016": null,
+    "customfield_10017": null,
+    "customfield_10018": {
+      "hasEpicLinkFieldDependency": false,
+      "showField": false,
+      "nonEditableReason": {
+        "reason": "PLUGIN_LICENSE_ERROR",
+        "message": "The Parent Link is only available to Jira Premium users."
+      }
+    },
+    "customfield_10019": "0|hzzzzz:",
+    "timeestimate": null,
+    "aggregatetimeoriginalestimate": null,
+    "versions": [
+    ],
+    "issuelinks": [
+    ],
+    "assignee": null,
+    "updated": "2020-11-19T13:55:59.633+0000",
+    "status": {
+      "self": "https://minhiriathaen.atlassian.net/rest/api/3/status/4",
+      "description": "This issue was once resolved, but the resolution was deemed incorrect. From here issues are either marked assigned or resolved.",
+      "iconUrl": "https://minhiriathaen.atlassian.net/images/icons/statuses/reopened.png",
+      "name": "Reopened",
+      "id": "4",
+      "statusCategory": {
+        "self": "https://minhiriathaen.atlassian.net/rest/api/3/statuscategory/2",
+        "id": 2,
+        "key": "new",
+        "colorName": "blue-gray",
+        "name": "To Do"
+      }
+    },
+    "components": [
+    ],
+    "timeoriginalestimate": null,
+    "description": null,
+    "customfield_10010": null,
+    "customfield_10014": null,
+    "timetracking": {
+    },
+    "customfield_10015": null,
+    "customfield_10005": null,
+    "customfield_10006": null,
+    "security": null,
+    "customfield_10007": null,
+    "customfield_10008": null,
+    "attachment": [
+    ],
+    "aggregatetimeestimate": null,
+    "customfield_10009": null,
+    "summary": "Test parent issue",
+    "creator": {
+      "self": "https://minhiriathaen.atlassian.net/rest/api/3/user?accountId=557058%3A3e6c9643-94d5-4fc6-884a-102c88dbd17c",
+      "accountId": "557058:3e6c9643-94d5-4fc6-884a-102c88dbd17c",
+      "emailAddress": "minhiriathaen@gmail.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/716185a36cce31cc97bbe6baf9fedd4f?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FGA-4.png",
+        "24x24": "https://secure.gravatar.com/avatar/716185a36cce31cc97bbe6baf9fedd4f?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FGA-4.png",
+        "16x16": "https://secure.gravatar.com/avatar/716185a36cce31cc97bbe6baf9fedd4f?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FGA-4.png",
+        "32x32": "https://secure.gravatar.com/avatar/716185a36cce31cc97bbe6baf9fedd4f?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FGA-4.png"
+      },
+      "displayName": "Minhiri Athaen",
+      "active": true,
+      "timeZone": "Europe/Budapest",
+      "accountType": "atlassian"
+    },
+    "subtasks": [
+      {
+        "id": "10001",
+        "key": "TEST-2",
+        "self": "https://minhiriathaen.atlassian.net/rest/api/3/issue/10001",
+        "fields": {
+          "summary": "Test subtask",
+          "status": {
+            "self": "https://minhiriathaen.atlassian.net/rest/api/3/status/4",
+            "description": "This issue was once resolved, but the resolution was deemed incorrect. From here issues are either marked assigned or resolved.",
+            "iconUrl": "https://minhiriathaen.atlassian.net/images/icons/statuses/reopened.png",
+            "name": "Reopened",
+            "id": "4",
+            "statusCategory": {
+              "self": "https://minhiriathaen.atlassian.net/rest/api/3/statuscategory/2",
+              "id": 2,
+              "key": "new",
+              "colorName": "blue-gray",
+              "name": "To Do"
+            }
+          },
+          "priority": {
+            "self": "https://minhiriathaen.atlassian.net/rest/api/3/priority/3",
+            "iconUrl": "https://minhiriathaen.atlassian.net/images/icons/priorities/medium.svg",
+            "name": "Medium",
+            "id": "3"
+          },
+          "issuetype": {
+            "self": "https://minhiriathaen.atlassian.net/rest/api/3/issuetype/10006",
+            "id": "10006",
+            "description": "Subtask issue type for testing",
+            "iconUrl": "https://minhiriathaen.atlassian.net/secure/viewavatar?size=medium&avatarId=10316&avatarType=issuetype",
+            "name": "Test subtask issue type",
+            "subtask": true,
+            "avatarId": 10316
+          }
+        }
+      }
+    ],
+    "reporter": {
+      "self": "https://minhiriathaen.atlassian.net/rest/api/3/user?accountId=557058%3A3e6c9643-94d5-4fc6-884a-102c88dbd17c",
+      "accountId": "557058:3e6c9643-94d5-4fc6-884a-102c88dbd17c",
+      "emailAddress": "minhiriathaen",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/716185a36cce31cc97bbe6baf9fedd4f?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FGA-4.png",
+        "24x24": "https://secure.gravatar.com/avatar/716185a36cce31cc97bbe6baf9fedd4f?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FGA-4.png",
+        "16x16": "https://secure.gravatar.com/avatar/716185a36cce31cc97bbe6baf9fedd4f?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FGA-4.png",
+        "32x32": "https://secure.gravatar.com/avatar/716185a36cce31cc97bbe6baf9fedd4f?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FGA-4.png"
+      },
+      "displayName": "Minhiri Athaen",
+      "active": true,
+      "timeZone": "Europe/Budapest",
+      "accountType": "atlassian"
+    },
+    "customfield_10000": "{}",
+    "aggregateprogress": {
+      "progress": 0,
+      "total": 0
+    },
+    "customfield_10001": null,
+    "customfield_10002": null,
+    "customfield_10003": null,
+    "customfield_10004": null,
+    "environment": null,
+    "duedate": null,
+    "progress": {
+      "progress": 0,
+      "total": 0
+    },
+    "comment": {
+      "comments": [
+      ],
+      "maxResults": 0,
+      "total": 0,
+      "startAt": 0
+    },
+    "votes": {
+      "self": "https://minhiriathaen.atlassian.net/rest/api/3/issue/TEST-1/votes",
+      "votes": 0,
+      "hasVoted": false
+    },
+    "worklog": {
+      "startAt": 0,
+      "maxResults": 20,
+      "total": 0,
+      "worklogs": [
+      ]
+    }
+  }
+}

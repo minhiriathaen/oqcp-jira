@@ -1,0 +1,124 @@
+{
+  "name": "web",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@atlaskit/button": "^15.1.1",
+    "@atlaskit/checkbox": "^11.0.7",
+    "@atlaskit/css-reset": "^6.0.5",
+    "@atlaskit/dynamic-table": "^14.1.5",
+    "@atlaskit/form": "^8.1.6",
+    "@atlaskit/section-message": "^5.0.8",
+    "@atlaskit/spinner": "^15.0.5",
+    "@atlaskit/textfield": "^4.0.9",
+    "@types/enzyme-adapter-react-16": "^1.0.6",
+    "axios": "^0.20.0",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.5",
+    "jest-enzyme": "^7.1.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-inlinesvg": "^2.1.1",
+    "react-scripts": "3.4.0",
+    "styled-components": "^5.2.0"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test --coverage --watchAll=false",
+    "test-ci": "react-app-rewired test --watchAll=false --testResultsProcessor jest-junit",
+    "sonar": "react-app-rewired test --coverage --watchAll=false --testResultsProcessor jest-sonar-reporter",
+    "test:watch": "react-app-rewired test",
+    "eject": "react-scripts eject",
+    "lint:check": "eslint \"src/**/*.{ts,tsx}\"",
+    "lint:fix": "eslint --fix \"src/**/*.{ts,tsx}\""
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/react-hooks": "^3.4.2",
+    "@testing-library/user-event": "^7.1.2",
+    "@types/enzyme": "^3.10.8",
+    "@types/jest": "^26.0.15",
+    "@types/node": "^14.10.2",
+    "@types/react": "^16.9.49",
+    "@types/react-dom": "^16.9.8",
+    "@typescript-eslint/eslint-plugin": "^4.1.1",
+    "@typescript-eslint/parser": "^4.1.1",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-typescript": "^10.0.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-import-resolver-node": "^0.3.4",
+    "eslint-import-resolver-typescript": "^2.3.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.20.6",
+    "eslint-plugin-react-hooks": "^4.1.2",
+    "eslint-plugin-sonarjs": "^0.5.0",
+    "husky": "^4.3.0",
+    "jest": "^24.9.0",
+    "jest-junit": "^12.0.0",
+    "jest-sonar-reporter": "^2.0.0",
+    "lint-staged": "^10.4.0",
+    "prettier": "^2.1.2",
+    "react-app-rewire-multiple-entry": "^2.2.0",
+    "react-app-rewired": "^2.1.6",
+    "ts-jest": "^26.4.4",
+    "typescript": "^4.1.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "src/**/*.{ts,tsx}": "yarn lint:fix"
+  },
+  "jestSonar": {
+    "reportPath": "coverage",
+    "reportFile": "test-report.xml",
+    "indent": 4
+  },
+  "jest": {
+    "coverageThreshold": {
+      "global": {
+        "branches": 30,
+        "functions": 30,
+        "lines": 30,
+        "statements": 0
+      }
+    },
+    "coverageReporters": [
+      "text",
+      "lcov",
+      "clover"
+    ],
+    "reporters": [
+      "default",
+      "jest-junit"
+    ],
+    "collectCoverageFrom": [
+      "src/**/*.{ts,tsx}",
+      "!src/serviceWorker.ts"
+    ],
+    "jest-junit": {
+      "ancestorSeparator": " › "
+    }
+  }
+}

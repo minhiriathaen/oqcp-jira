@@ -1,0 +1,119 @@
+{
+  "data": [
+    {
+      "lastAnalyzed": "2021-01-27T00:03:12.726221Z",
+      "status": "ANALYSIS_FAILED",
+      "versionsLeft": 1756,
+      "analyzedVersions": 2117,
+      "analysisRetryAttempts": 0,
+      "archived": false,
+      "deleted": false,
+      "analyzerMessage": "Analyzer restarted during analysis!",
+      "projectDTO": {
+        "analysisStartDate": null,
+        "id": 1,
+        "projectName": "ProjectName",
+        "url": "https://github.com/tensorflow/models.git",
+        "language": "Python",
+        "analysisRunning": false,
+        "deleted": false,
+        "suspended": false,
+        "private": false,
+        "gitHubRepositoryId": null,
+        "benchmarkInfo": {
+          "id": 6,
+          "name": "Default OpenQualityChecker benchmark"
+        },
+        "accountModelInfo": {
+          "id": 7,
+          "name": "Default OpenQualityChecker model",
+          "rootNodeName": "Maintainability"
+        }
+      },
+      "lastVersion": {
+        "id": 6982,
+        "hash": "ece9941479124814158a58466b1c5a40a879eb27",
+        "committerName": "Toby Boyd",
+        "committerEmail": "tobyboyd@google.com",
+        "committerDate": "2019-04-25T21:11:53Z",
+        "authorName": "Ayush Dubey",
+        "authorEmail": "ayushd@google.com",
+        "authorDate": "2019-04-25T21:11:53Z",
+        "log": "Remove contrib cross device ops and update all_reduce_alg options. (#6673)\n\n* Remove contrib AllReduceCrossDeviceOps and update all_reduce_alg options with MirroredStrategy.\r\n\r\n* cleanup\r\n",
+        "parentHash": "a73387717ea9a093457fb030171baf2656f7ba7f"
+      },
+      "qualification": {
+        "version": {
+          "id": 6980,
+          "hash": "ff5cef9a1b94bd673470a07149f8261db8397cb2",
+          "committerName": "GitHub",
+          "committerEmail": "noreply@github.com",
+          "committerDate": "2019-04-24T23:27:10Z",
+          "authorName": "Toby Boyd",
+          "authorEmail": "tobyboyd@google.com",
+          "authorDate": "2019-04-24T23:27:10Z",
+          "log": "Add top_1 accuracy check. (#6663)--"
+        },
+        "qualifications": {
+          "Code duplication": {
+            "name": "Code duplication",
+            "sceType": "",
+            "value": 10.0
+          },
+          "Code complexity": {
+            "name": "Code complexity",
+            "sceType": "",
+            "value": 8.387096774193548
+          },
+          "Code structure": {
+            "name": "Code structure",
+            "sceType": "",
+            "value": 10.0
+          },
+          "Coding issues": {
+            "name": "Coding issues",
+            "sceType": "",
+            "value": 10.0
+          },
+          "Code size": {
+            "name": "Code size",
+            "sceType": "",
+            "value": 8.703703703703704
+          },
+          "Maintainability": {
+            "name": "Maintainability",
+            "sceType": "",
+            "value": 1.1
+          },
+          "Code documentation": {
+            "name": "Code documentation",
+            "sceType": "",
+            "value": 6.428571428571429
+          }
+        }
+      },
+      "id": 11,
+      "projectName": "tensorflow_models",
+      "branchName": "FirstBranch",
+      "url": "https://github.com/tensorflow/models.git",
+      "language": "Python"
+    },
+    {
+      "branchName": "SecondBranch",
+      "id": 22,
+      "projectDTO": {
+        "id": 1,
+        "projectName": "ProjectName"
+      },
+      "qualification": {
+        "qualifications": {
+          "Maintainability": {
+            "name": "Maintainability",
+            "sceType": "",
+            "value": 2.2
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+version: "3.8"
+
+services:
+  jira-proxy:
+    build:
+      context: ./proxy
+    image: oqcp/jira-proxy
+    restart: unless-stopped
+    networks:
+      - oqcp-jira
+    expose:
+      - 80
+    depends_on:
+      - jira-frontend
+      - jira-backend
+
+  jira-frontend:
+    build:
+      context: ./web
+    image: oqcp/jira-frontend
+    restart: unless-stopped
+    stdin_open: true
+    networks:
+      - oqcp-jira
+    env_file: 
+      - ${CONTAINER_ENV_FILE}
+
+  jira-backend:
+    build:
+      context: ./backend
+    image: oqcp/jira-backend
+    restart: unless-stopped
+    networks:
+      - oqcp-jira
+    expose:
+      - 8080
+    depends_on:
+      - jira-database   
+    env_file: 
+      - ${CONTAINER_ENV_FILE}
+
+  jira-database:
+    image: postgres:13.1-alpine
+    restart: unless-stopped
+    networks:
+      - oqcp-jira
+    env_file: 
+      - ${CONTAINER_ENV_FILE}
+      
+networks:
+  oqcp-jira:
+    name: oqcp-jira

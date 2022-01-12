@@ -1,0 +1,73 @@
+{
+  "key": "fake key",
+  "baseUrl": "test.fake.baseurl",
+  "name": "OpenQualityChecker Plugin",
+  "authentication": {
+    "type": "jwt"
+  },
+  "lifecycle": {
+    "installed": "/events/installed",
+    "uninstalled": "/events/uninstalled"
+  },
+  "modules": {
+    "generalPages": [
+      {
+        "key": "edit-user-mapping",
+        "location": "system.top.navigation.bar",
+        "name": {
+          "value": "Connect OpenQualityChecker user"
+        },
+        "url": "/edit-user-mapping.html"
+      }
+    ],
+    "configurePage": {
+      "url": "/edit-account-mapping.html",
+      "name": {
+        "value": "Connect OpenQualityChecker account"
+      },
+      "key": "edit-account-mapping-page-jira"
+    },
+    "webSections": [
+      {
+        "key": "project-settings-section",
+        "location": "atl.jira.proj.config",
+        "name": {
+          "value": "OpenQualityChecker"
+        }
+      }
+    ],
+    "jiraProjectAdminTabPanels": [
+      {
+        "key": "edit-project-mapping",
+        "location": "project-settings-section",
+        "name": {
+          "value": "Connect OpenQualityChecker projects"
+        },
+        "url": "/edit-project-mapping.html"
+      }
+    ],
+    "jiraProjectPages": [
+      {
+        "key": "view-open-quality-checker-page",
+        "name": {
+          "value": "OpenQualityChecker"
+        },
+        "url": "/view-open-quality-checker.html?projectKey={project.key}"
+      }
+    ],
+    "jiraDashboardItems": [
+      {
+        "key": "maintainability-dashboard-gadget",
+        "name": {
+          "value": "OpenQualityChecker Maintainability Overview"
+        },
+        "url": "/maintainability-dashboard-gadget.html",
+        "description": {
+          "value": "OpenQualityChecker Maintainability Overview"
+        },
+        "configurable": false,
+        "thumbnailUrl": "oqc-logo.png"
+      }
+    ]
+  }
+}

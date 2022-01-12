@@ -1,0 +1,11 @@
+version: '3.5'
+
+services:
+  check:
+    build:
+      context: ./
+      dockerfile: ./Dockerfile-builder
+    image: oqcp-backend-builder
+    volumes:
+      - .:/usr/src/app
+    command: gradle check --info

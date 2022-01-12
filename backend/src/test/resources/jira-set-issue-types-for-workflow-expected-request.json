@@ -1,0 +1,8 @@
+{
+  "workflow": "jira",
+  "updateDraftIfNeeded": true,
+  "issueTypes": [
+    "10044",
+    "10045"
+  ]
+}

@@ -1,0 +1,19 @@
+version: '3.5'
+
+services:
+  check:
+    build:
+      context: ./
+      dockerfile: ./Dockerfile
+    image: oqcp-frontend-checker
+    networks:
+     - oqcp-jira
+    volumes:
+     - ./test:/usr/src/app/test
+    command: yarn test-ci
+    environment:
+     - JEST_REPORT_FILE=./test/jest-report.json
+      
+networks:
+  oqcp-jira:
+    name: oqcp-jira

@@ -1,0 +1,1203 @@
+{
+  "expand": "schema,names",
+  "startAt": 0,
+  "maxResults": 50,
+  "total": 6,
+  "issues": [
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "10010",
+      "self": "https://minhiriathaen.atlassian.net/rest/api/3/issue/10010",
+      "key": "TES-11",
+      "fields": {
+        "statuscategorychangedate": "2021-01-27T15:59:32.711+0100",
+        "issuetype": {
+          "self": "https://minhiriathaen.atlassian.net/rest/api/3/issuetype/10006",
+          "id": "10006",
+          "description": "",
+          "iconUrl": "https://minhiriathaen.atlassian.net/secure/viewavatar?size=medium&avatarId=10316&avatarType=issuetype",
+          "name": "OpenQualityChecker Advice",
+          "subtask": true,
+          "avatarId": 10316
+        },
+        "parent": {
+          "id": "10008",
+          "key": "TES-9",
+          "self": "https://minhiriathaen.atlassian.net/rest/api/3/issue/10008",
+          "fields": {
+            "summary": "masodik_parent",
+            "status": {
+              "self": "https://minhiriathaen.atlassian.net/rest/api/3/status/1",
+              "description": "The issue is open and ready for the assignee to start work on it.",
+              "iconUrl": "https://minhiriathaen.atlassian.net/images/icons/statuses/open.png",
+              "name": "Open",
+              "id": "1",
+              "statusCategory": {
+                "self": "https://minhiriathaen.atlassian.net/rest/api/3/statuscategory/2",
+                "id": 2,
+                "key": "new",
+                "colorName": "blue-gray",
+                "name": "To Do"
+              }
+            },
+            "priority": {
+              "self": "https://minhiriathaen.atlassian.net/rest/api/3/priority/3",
+              "iconUrl": "https://minhiriathaen.atlassian.net/images/icons/priorities/medium.svg",
+              "name": "Medium",
+              "id": "3"
+            },
+            "issuetype": {
+              "self": "https://minhiriathaen.atlassian.net/rest/api/3/issuetype/10005",
+              "id": "10005",
+              "description": "",
+              "iconUrl": "https://minhiriathaen.atlassian.net/secure/viewavatar?size=medium&avatarId=10300&avatarType=issuetype",
+              "name": "OpenQualityChecker Advice group",
+              "subtask": false,
+              "avatarId": 10300
+            }
+          }
+        },
+        "timespent": null,
+        "project": {
+          "self": "https://minhiriathaen.atlassian.net/rest/api/3/project/10000",
+          "id": "10000",
+          "key": "TES",
+          "name": "Teszt",
+          "projectTypeKey": "software",
+          "simplified": false,
+          "avatarUrls": {
+            "48x48": "https://minhiriathaen.atlassian.net/secure/projectavatar?pid=10000&avatarId=10408",
+            "24x24": "https://minhiriathaen.atlassian.net/secure/projectavatar?size=small&s=small&pid=10000&avatarId=10408",
+            "16x16": "https://minhiriathaen.atlassian.net/secure/projectavatar?size=xsmall&s=xsmall&pid=10000&avatarId=10408",
+            "32x32": "https://minhiriathaen.atlassian.net/secure/projectavatar?size=medium&s=medium&pid=10000&avatarId=10408"
+          }
+        },
+        "fixVersions": [],
+        "aggregatetimespent": null,
+        "resolution": null,
+        "resolutiondate": null,
+        "workratio": -1,
+        "lastViewed": null,
+        "watches": {
+          "self": "https://minhiriathaen.atlassian.net/rest/api/3/issue/TES-11/watchers",
+          "watchCount": 1,
+          "isWatching": true
+        },
+        "created": "2021-01-27T15:59:32.634+0100",
+        "customfield_10020": null,
+        "customfield_10021": null,
+        "customfield_10022": null,
+        "customfield_10023": null,
+        "priority": {
+          "self": "https://minhiriathaen.atlassian.net/rest/api/3/priority/3",
+          "iconUrl": "https://minhiriathaen.atlassian.net/images/icons/priorities/medium.svg",
+          "name": "Medium",
+          "id": "3"
+        },
+        "customfield_10024": null,
+        "customfield_10025": null,
+        "labels": [],
+        "customfield_10016": null,
+        "customfield_10017": null,
+        "customfield_10018": {
+          "hasEpicLinkFieldDependency": false,
+          "showField": false,
+          "nonEditableReason": {
+            "reason": "PLUGIN_LICENSE_ERROR",
+            "message": "The Parent Link is only available to Jira Premium users."
+          }
+        },
+        "customfield_10019": "0|i00027:",
+        "aggregatetimeoriginalestimate": null,
+        "timeestimate": null,
+        "versions": [],
+        "issuelinks": [],
+        "assignee": null,
+        "updated": "2021-01-27T15:59:32.735+0100",
+        "status": {
+          "self": "https://minhiriathaen.atlassian.net/rest/api/3/status/1",
+          "description": "The issue is open and ready for the assignee to start work on it.",
+          "iconUrl": "https://minhiriathaen.atlassian.net/images/icons/statuses/open.png",
+          "name": "Open",
+          "id": "1",
+          "statusCategory": {
+            "self": "https://minhiriathaen.atlassian.net/rest/api/3/statuscategory/2",
+            "id": 2,
+            "key": "new",
+            "colorName": "blue-gray",
+            "name": "To Do"
+          }
+        },
+        "components": [],
+        "timeoriginalestimate": null,
+        "description": null,
+        "customfield_10010": null,
+        "customfield_10014": null,
+        "customfield_10015": null,
+        "customfield_10005": null,
+        "customfield_10006": null,
+        "security": null,
+        "customfield_10007": null,
+        "customfield_10008": null,
+        "aggregatetimeestimate": null,
+        "customfield_10009": null,
+        "summary": "hetedik_subtask",
+        "creator": {
+          "self": "https://minhiriathaen.atlassian.net/rest/api/3/user?accountId=557058%3Ae9332923-b413-4dae-8c10-3e3f3fce8f93",
+          "accountId": "557058:e9332923-b413-4dae-8c10-3e3f3fce8f93",
+          "emailAddress": "minhiriathaen@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/c8d9c174ce85418ebabafd8532144bf7?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FP-3.png",
+            "24x24": "https://secure.gravatar.com/avatar/c8d9c174ce85418ebabafd8532144bf7?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FP-3.png",
+            "16x16": "https://secure.gravatar.com/avatar/c8d9c174ce85418ebabafd8532144bf7?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FP-3.png",
+            "32x32": "https://secure.gravatar.com/avatar/c8d9c174ce85418ebabafd8532144bf7?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FP-3.png"
+          },
+          "displayName": "Minhiri Athaen",
+          "active": true,
+          "timeZone": "Europe/Budapest",
+          "accountType": "atlassian"
+        },
+        "subtasks": [],
+        "reporter": {
+          "self": "https://minhiriathaen.atlassian.net/rest/api/3/user?accountId=557058%3Ae9332923-b413-4dae-8c10-3e3f3fce8f93",
+          "accountId": "557058:e9332923-b413-4dae-8c10-3e3f3fce8f93",
+          "emailAddress": "minhiriathaen@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/c8d9c174ce85418ebabafd8532144bf7?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FP-3.png",
+            "24x24": "https://secure.gravatar.com/avatar/c8d9c174ce85418ebabafd8532144bf7?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FP-3.png",
+            "16x16": "https://secure.gravatar.com/avatar/c8d9c174ce85418ebabafd8532144bf7?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FP-3.png",
+            "32x32": "https://secure.gravatar.com/avatar/c8d9c174ce85418ebabafd8532144bf7?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FP-3.png"
+          },
+          "displayName": "Minhiri Athaen",
+          "active": true,
+          "timeZone": "Europe/Budapest",
+          "accountType": "atlassian"
+        },
+        "aggregateprogress": {
+          "progress": 0,
+          "total": 0
+        },
+        "customfield_10000": "{}",
+        "customfield_10001": null,
+        "customfield_10002": null,
+        "customfield_10003": null,
+        "customfield_10004": null,
+        "environment": null,
+        "duedate": null,
+        "progress": {
+          "progress": 0,
+          "total": 0
+        },
+        "votes": {
+          "self": "https://minhiriathaen.atlassian.net/rest/api/3/issue/TES-11/votes",
+          "votes": 0,
+          "hasVoted": false
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "10009",
+      "self": "https://minhiriathaen.atlassian.net/rest/api/3/issue/10009",
+      "key": "TES-10",
+      "fields": {
+        "statuscategorychangedate": "2021-01-27T15:59:22.173+0100",
+        "issuetype": {
+          "self": "https://minhiriathaen.atlassian.net/rest/api/3/issuetype/10006",
+          "id": "10006",
+          "description": "",
+          "iconUrl": "https://minhiriathaen.atlassian.net/secure/viewavatar?size=medium&avatarId=10316&avatarType=issuetype",
+          "name": "OpenQualityChecker Advice",
+          "subtask": true,
+          "avatarId": 10316
+        },
+        "parent": {
+          "id": "10008",
+          "key": "TES-9",
+          "self": "https://minhiriathaen.atlassian.net/rest/api/3/issue/10008",
+          "fields": {
+            "summary": "masodik_parent",
+            "status": {
+              "self": "https://minhiriathaen.atlassian.net/rest/api/3/status/1",
+              "description": "The issue is open and ready for the assignee to start work on it.",
+              "iconUrl": "https://minhiriathaen.atlassian.net/images/icons/statuses/open.png",
+              "name": "Open",
+              "id": "1",
+              "statusCategory": {
+                "self": "https://minhiriathaen.atlassian.net/rest/api/3/statuscategory/2",
+                "id": 2,
+                "key": "new",
+                "colorName": "blue-gray",
+                "name": "To Do"
+              }
+            },
+            "priority": {
+              "self": "https://minhiriathaen.atlassian.net/rest/api/3/priority/3",
+              "iconUrl": "https://minhiriathaen.atlassian.net/images/icons/priorities/medium.svg",
+              "name": "Medium",
+              "id": "3"
+            },
+            "issuetype": {
+              "self": "https://minhiriathaen.atlassian.net/rest/api/3/issuetype/10005",
+              "id": "10005",
+              "description": "",
+              "iconUrl": "https://minhiriathaen.atlassian.net/secure/viewavatar?size=medium&avatarId=10300&avatarType=issuetype",
+              "name": "OpenQualityChecker Advice group",
+              "subtask": false,
+              "avatarId": 10300
+            }
+          }
+        },
+        "timespent": null,
+        "project": {
+          "self": "https://minhiriathaen.atlassian.net/rest/api/3/project/10000",
+          "id": "10000",
+          "key": "TES",
+          "name": "Teszt",
+          "projectTypeKey": "software",
+          "simplified": false,
+          "avatarUrls": {
+            "48x48": "https://minhiriathaen.atlassian.net/secure/projectavatar?pid=10000&avatarId=10408",
+            "24x24": "https://minhiriathaen.atlassian.net/secure/projectavatar?size=small&s=small&pid=10000&avatarId=10408",
+            "16x16": "https://minhiriathaen.atlassian.net/secure/projectavatar?size=xsmall&s=xsmall&pid=10000&avatarId=10408",
+            "32x32": "https://minhiriathaen.atlassian.net/secure/projectavatar?size=medium&s=medium&pid=10000&avatarId=10408"
+          }
+        },
+        "fixVersions": [],
+        "aggregatetimespent": null,
+        "resolution": null,
+        "resolutiondate": null,
+        "workratio": -1,
+        "watches": {
+          "self": "https://minhiriathaen.atlassian.net/rest/api/3/issue/TES-10/watchers",
+          "watchCount": 1,
+          "isWatching": true
+        },
+        "lastViewed": null,
+        "created": "2021-01-27T15:59:22.034+0100",
+        "customfield_10020": null,
+        "customfield_10021": null,
+        "customfield_10022": null,
+        "customfield_10023": null,
+        "priority": {
+          "self": "https://minhiriathaen.atlassian.net/rest/api/3/priority/3",
+          "iconUrl": "https://minhiriathaen.atlassian.net/images/icons/priorities/medium.svg",
+          "name": "Medium",
+          "id": "3"
+        },
+        "customfield_10024": null,
+        "customfield_10025": null,
+        "labels": [],
+        "customfield_10016": null,
+        "customfield_10017": null,
+        "customfield_10018": {
+          "hasEpicLinkFieldDependency": false,
+          "showField": false,
+          "nonEditableReason": {
+            "reason": "PLUGIN_LICENSE_ERROR",
+            "message": "The Parent Link is only available to Jira Premium users."
+          }
+        },
+        "customfield_10019": "0|i0001z:",
+        "timeestimate": null,
+        "aggregatetimeoriginalestimate": null,
+        "versions": [],
+        "issuelinks": [],
+        "assignee": null,
+        "updated": "2021-01-27T15:59:22.199+0100",
+        "status": {
+          "self": "https://minhiriathaen.atlassian.net/rest/api/3/status/1",
+          "description": "The issue is open and ready for the assignee to start work on it.",
+          "iconUrl": "https://minhiriathaen.atlassian.net/images/icons/statuses/open.png",
+          "name": "Open",
+          "id": "1",
+          "statusCategory": {
+            "self": "https://minhiriathaen.atlassian.net/rest/api/3/statuscategory/2",
+            "id": 2,
+            "key": "new",
+            "colorName": "blue-gray",
+            "name": "To Do"
+          }
+        },
+        "components": [],
+        "timeoriginalestimate": null,
+        "description": null,
+        "customfield_10010": null,
+        "customfield_10014": null,
+        "customfield_10015": null,
+        "customfield_10005": null,
+        "customfield_10006": null,
+        "security": null,
+        "customfield_10007": null,
+        "customfield_10008": null,
+        "customfield_10009": null,
+        "aggregatetimeestimate": null,
+        "summary": "hatodik_subtask",
+        "creator": {
+          "self": "https://minhiriathaen.atlassian.net/rest/api/3/user?accountId=557058%3Ae9332923-b413-4dae-8c10-3e3f3fce8f93",
+          "accountId": "557058:e9332923-b413-4dae-8c10-3e3f3fce8f93",
+          "emailAddress": "minhiriathaen@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/c8d9c174ce85418ebabafd8532144bf7?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FP-3.png",
+            "24x24": "https://secure.gravatar.com/avatar/c8d9c174ce85418ebabafd8532144bf7?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FP-3.png",
+            "16x16": "https://secure.gravatar.com/avatar/c8d9c174ce85418ebabafd8532144bf7?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FP-3.png",
+            "32x32": "https://secure.gravatar.com/avatar/c8d9c174ce85418ebabafd8532144bf7?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FP-3.png"
+          },
+          "displayName": "Minhiri Athaen",
+          "active": true,
+          "timeZone": "Europe/Budapest",
+          "accountType": "atlassian"
+        },
+        "subtasks": [],
+        "reporter": {
+          "self": "https://minhiriathaen.atlassian.net/rest/api/3/user?accountId=557058%3Ae9332923-b413-4dae-8c10-3e3f3fce8f93",
+          "accountId": "557058:e9332923-b413-4dae-8c10-3e3f3fce8f93",
+          "emailAddress": "minhiriathaen@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/c8d9c174ce85418ebabafd8532144bf7?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FP-3.png",
+            "24x24": "https://secure.gravatar.com/avatar/c8d9c174ce85418ebabafd8532144bf7?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FP-3.png",
+            "16x16": "https://secure.gravatar.com/avatar/c8d9c174ce85418ebabafd8532144bf7?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FP-3.png",
+            "32x32": "https://secure.gravatar.com/avatar/c8d9c174ce85418ebabafd8532144bf7?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FP-3.png"
+          },
+          "displayName": "Minhiri Athaen",
+          "active": true,
+          "timeZone": "Europe/Budapest",
+          "accountType": "atlassian"
+        },
+        "aggregateprogress": {
+          "progress": 0,
+          "total": 0
+        },
+        "customfield_10000": "{}",
+        "customfield_10001": null,
+        "customfield_10002": null,
+        "customfield_10003": null,
+        "customfield_10004": null,
+        "environment": null,
+        "duedate": null,
+        "progress": {
+          "progress": 0,
+          "total": 0
+        },
+        "votes": {
+          "self": "https://minhiriathaen.atlassian.net/rest/api/3/issue/TES-10/votes",
+          "votes": 0,
+          "hasVoted": false
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "10007",
+      "self": "https://minhiriathaen.atlassian.net/rest/api/3/issue/10007",
+      "key": "TES-8",
+      "fields": {
+        "statuscategorychangedate": "2021-01-27T14:23:48.891+0100",
+        "issuetype": {
+          "self": "https://minhiriathaen.atlassian.net/rest/api/3/issuetype/10006",
+          "id": "10006",
+          "description": "",
+          "iconUrl": "https://minhiriathaen.atlassian.net/secure/viewavatar?size=medium&avatarId=10316&avatarType=issuetype",
+          "name": "OpenQualityChecker Advice",
+          "subtask": true,
+          "avatarId": 10316
+        },
+        "parent": {
+          "id": "10005",
+          "key": "TES-6",
+          "self": "https://minhiriathaen.atlassian.net/rest/api/3/issue/10005",
+          "fields": {
+            "summary": "parent_quality",
+            "status": {
+              "self": "https://minhiriathaen.atlassian.net/rest/api/3/status/1",
+              "description": "The issue is open and ready for the assignee to start work on it.",
+              "iconUrl": "https://minhiriathaen.atlassian.net/images/icons/statuses/open.png",
+              "name": "Open",
+              "id": "1",
+              "statusCategory": {
+                "self": "https://minhiriathaen.atlassian.net/rest/api/3/statuscategory/2",
+                "id": 2,
+                "key": "new",
+                "colorName": "blue-gray",
+                "name": "To Do"
+              }
+            },
+            "priority": {
+              "self": "https://minhiriathaen.atlassian.net/rest/api/3/priority/3",
+              "iconUrl": "https://minhiriathaen.atlassian.net/images/icons/priorities/medium.svg",
+              "name": "Medium",
+              "id": "3"
+            },
+            "issuetype": {
+              "self": "https://minhiriathaen.atlassian.net/rest/api/3/issuetype/10005",
+              "id": "10005",
+              "description": "",
+              "iconUrl": "https://minhiriathaen.atlassian.net/secure/viewavatar?size=medium&avatarId=10300&avatarType=issuetype",
+              "name": "OpenQualityChecker Advice group",
+              "subtask": false,
+              "avatarId": 10300
+            }
+          }
+        },
+        "timespent": null,
+        "project": {
+          "self": "https://minhiriathaen.atlassian.net/rest/api/3/project/10000",
+          "id": "10000",
+          "key": "TES",
+          "name": "Teszt",
+          "projectTypeKey": "software",
+          "simplified": false,
+          "avatarUrls": {
+            "48x48": "https://minhiriathaen.atlassian.net/secure/projectavatar?pid=10000&avatarId=10408",
+            "24x24": "https://minhiriathaen.atlassian.net/secure/projectavatar?size=small&s=small&pid=10000&avatarId=10408",
+            "16x16": "https://minhiriathaen.atlassian.net/secure/projectavatar?size=xsmall&s=xsmall&pid=10000&avatarId=10408",
+            "32x32": "https://minhiriathaen.atlassian.net/secure/projectavatar?size=medium&s=medium&pid=10000&avatarId=10408"
+          }
+        },
+        "fixVersions": [],
+        "aggregatetimespent": null,
+        "resolution": null,
+        "resolutiondate": null,
+        "workratio": -1,
+        "watches": {
+          "self": "https://minhiriathaen.atlassian.net/rest/api/3/issue/TES-8/watchers",
+          "watchCount": 1,
+          "isWatching": true
+        },
+        "lastViewed": null,
+        "created": "2021-01-27T14:23:48.807+0100",
+        "customfield_10020": null,
+        "customfield_10021": null,
+        "customfield_10022": null,
+        "customfield_10023": null,
+        "priority": {
+          "self": "https://minhiriathaen.atlassian.net/rest/api/3/priority/3",
+          "iconUrl": "https://minhiriathaen.atlassian.net/images/icons/priorities/medium.svg",
+          "name": "Medium",
+          "id": "3"
+        },
+        "customfield_10024": null,
+        "customfield_10025": null,
+        "labels": [],
+        "customfield_10016": null,
+        "customfield_10017": null,
+        "customfield_10018": {
+          "hasEpicLinkFieldDependency": false,
+          "showField": false,
+          "nonEditableReason": {
+            "reason": "PLUGIN_LICENSE_ERROR",
+            "message": "The Parent Link is only available to Jira Premium users."
+          }
+        },
+        "customfield_10019": "0|i0001j:",
+        "timeestimate": null,
+        "aggregatetimeoriginalestimate": null,
+        "versions": [],
+        "issuelinks": [],
+        "assignee": null,
+        "updated": "2021-01-27T14:23:48.912+0100",
+        "status": {
+          "self": "https://minhiriathaen.atlassian.net/rest/api/3/status/1",
+          "description": "The issue is open and ready for the assignee to start work on it.",
+          "iconUrl": "https://minhiriathaen.atlassian.net/images/icons/statuses/open.png",
+          "name": "Open",
+          "id": "1",
+          "statusCategory": {
+            "self": "https://minhiriathaen.atlassian.net/rest/api/3/statuscategory/2",
+            "id": 2,
+            "key": "new",
+            "colorName": "blue-gray",
+            "name": "To Do"
+          }
+        },
+        "components": [],
+        "timeoriginalestimate": null,
+        "description": null,
+        "customfield_10010": null,
+        "customfield_10014": null,
+        "customfield_10015": null,
+        "customfield_10005": null,
+        "customfield_10006": null,
+        "customfield_10007": null,
+        "security": null,
+        "customfield_10008": null,
+        "customfield_10009": null,
+        "aggregatetimeestimate": null,
+        "summary": "otodik_subtask",
+        "creator": {
+          "self": "https://minhiriathaen.atlassian.net/rest/api/3/user?accountId=557058%3Ae9332923-b413-4dae-8c10-3e3f3fce8f93",
+          "accountId": "557058:e9332923-b413-4dae-8c10-3e3f3fce8f93",
+          "emailAddress": "minhiriathaen@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/c8d9c174ce85418ebabafd8532144bf7?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FP-3.png",
+            "24x24": "https://secure.gravatar.com/avatar/c8d9c174ce85418ebabafd8532144bf7?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FP-3.png",
+            "16x16": "https://secure.gravatar.com/avatar/c8d9c174ce85418ebabafd8532144bf7?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FP-3.png",
+            "32x32": "https://secure.gravatar.com/avatar/c8d9c174ce85418ebabafd8532144bf7?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FP-3.png"
+          },
+          "displayName": "Minhiri Athaen",
+          "active": true,
+          "timeZone": "Europe/Budapest",
+          "accountType": "atlassian"
+        },
+        "subtasks": [],
+        "reporter": {
+          "self": "https://minhiriathaen.atlassian.net/rest/api/3/user?accountId=557058%3Ae9332923-b413-4dae-8c10-3e3f3fce8f93",
+          "accountId": "557058:e9332923-b413-4dae-8c10-3e3f3fce8f93",
+          "emailAddress": "minhiriathaen@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/c8d9c174ce85418ebabafd8532144bf7?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FP-3.png",
+            "24x24": "https://secure.gravatar.com/avatar/c8d9c174ce85418ebabafd8532144bf7?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FP-3.png",
+            "16x16": "https://secure.gravatar.com/avatar/c8d9c174ce85418ebabafd8532144bf7?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FP-3.png",
+            "32x32": "https://secure.gravatar.com/avatar/c8d9c174ce85418ebabafd8532144bf7?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FP-3.png"
+          },
+          "displayName": "Minhiri Athaen",
+          "active": true,
+          "timeZone": "Europe/Budapest",
+          "accountType": "atlassian"
+        },
+        "aggregateprogress": {
+          "progress": 0,
+          "total": 0
+        },
+        "customfield_10000": "{}",
+        "customfield_10001": null,
+        "customfield_10002": null,
+        "customfield_10003": null,
+        "customfield_10004": null,
+        "environment": null,
+        "duedate": null,
+        "progress": {
+          "progress": 0,
+          "total": 0
+        },
+        "votes": {
+          "self": "https://minhiriathaen.atlassian.net/rest/api/3/issue/TES-8/votes",
+          "votes": 0,
+          "hasVoted": false
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "10006",
+      "self": "https://minhiriathaen.atlassian.net/rest/api/3/issue/10006",
+      "key": "TES-7",
+      "fields": {
+        "statuscategorychangedate": "2021-01-27T14:38:17.618+0100",
+        "issuetype": {
+          "self": "https://minhiriathaen.atlassian.net/rest/api/3/issuetype/10006",
+          "id": "10006",
+          "description": "",
+          "iconUrl": "https://minhiriathaen.atlassian.net/secure/viewavatar?size=medium&avatarId=10316&avatarType=issuetype",
+          "name": "OpenQualityChecker Advice",
+          "subtask": true,
+          "avatarId": 10316
+        },
+        "parent": {
+          "id": "10005",
+          "key": "TES-6",
+          "self": "https://minhiriathaen.atlassian.net/rest/api/3/issue/10005",
+          "fields": {
+            "summary": "parent_quality",
+            "status": {
+              "self": "https://minhiriathaen.atlassian.net/rest/api/3/status/1",
+              "description": "The issue is open and ready for the assignee to start work on it.",
+              "iconUrl": "https://minhiriathaen.atlassian.net/images/icons/statuses/open.png",
+              "name": "Open",
+              "id": "1",
+              "statusCategory": {
+                "self": "https://minhiriathaen.atlassian.net/rest/api/3/statuscategory/2",
+                "id": 2,
+                "key": "new",
+                "colorName": "blue-gray",
+                "name": "To Do"
+              }
+            },
+            "priority": {
+              "self": "https://minhiriathaen.atlassian.net/rest/api/3/priority/3",
+              "iconUrl": "https://minhiriathaen.atlassian.net/images/icons/priorities/medium.svg",
+              "name": "Medium",
+              "id": "3"
+            },
+            "issuetype": {
+              "self": "https://minhiriathaen.atlassian.net/rest/api/3/issuetype/10005",
+              "id": "10005",
+              "description": "",
+              "iconUrl": "https://minhiriathaen.atlassian.net/secure/viewavatar?size=medium&avatarId=10300&avatarType=issuetype",
+              "name": "OpenQualityChecker Advice group",
+              "subtask": false,
+              "avatarId": 10300
+            }
+          }
+        },
+        "timespent": null,
+        "project": {
+          "self": "https://minhiriathaen.atlassian.net/rest/api/3/project/10000",
+          "id": "10000",
+          "key": "TES",
+          "name": "Teszt",
+          "projectTypeKey": "software",
+          "simplified": false,
+          "avatarUrls": {
+            "48x48": "https://minhiriathaen.atlassian.net/secure/projectavatar?pid=10000&avatarId=10408",
+            "24x24": "https://minhiriathaen.atlassian.net/secure/projectavatar?size=small&s=small&pid=10000&avatarId=10408",
+            "16x16": "https://minhiriathaen.atlassian.net/secure/projectavatar?size=xsmall&s=xsmall&pid=10000&avatarId=10408",
+            "32x32": "https://minhiriathaen.atlassian.net/secure/projectavatar?size=medium&s=medium&pid=10000&avatarId=10408"
+          }
+        },
+        "fixVersions": [],
+        "aggregatetimespent": null,
+        "resolution": {
+          "self": "https://minhiriathaen.atlassian.net/rest/api/3/resolution/10003",
+          "id": "10003",
+          "description": "All attempts at reproducing this issue failed, or not enough information was available to reproduce the issue. Reading the code produces no clues as to why this behavior would occur. If more information appears later, please reopen the issue.",
+          "name": "Cannot Reproduce"
+        },
+        "resolutiondate": "2021-01-27T14:38:17.568+0100",
+        "workratio": -1,
+        "lastViewed": "2021-01-27T14:38:17.529+0100",
+        "watches": {
+          "self": "https://minhiriathaen.atlassian.net/rest/api/3/issue/TES-7/watchers",
+          "watchCount": 1,
+          "isWatching": true
+        },
+        "created": "2021-01-27T14:23:40.281+0100",
+        "customfield_10020": null,
+        "customfield_10021": null,
+        "customfield_10022": null,
+        "priority": {
+          "self": "https://minhiriathaen.atlassian.net/rest/api/3/priority/3",
+          "iconUrl": "https://minhiriathaen.atlassian.net/images/icons/priorities/medium.svg",
+          "name": "Medium",
+          "id": "3"
+        },
+        "customfield_10023": null,
+        "customfield_10024": null,
+        "customfield_10025": "1_*:*_1_*:*_15970_*|*_3_*:*_1_*:*_861382_*|*_5_*:*_1_*:*_0",
+        "labels": [],
+        "customfield_10016": null,
+        "customfield_10017": null,
+        "customfield_10018": {
+          "hasEpicLinkFieldDependency": false,
+          "showField": false,
+          "nonEditableReason": {
+            "reason": "PLUGIN_LICENSE_ERROR",
+            "message": "The Parent Link is only available to Jira Premium users."
+          }
+        },
+        "customfield_10019": "0|i0001b:",
+        "aggregatetimeoriginalestimate": null,
+        "timeestimate": null,
+        "versions": [],
+        "issuelinks": [],
+        "assignee": {
+          "self": "https://minhiriathaen.atlassian.net/rest/api/3/user?accountId=557058%3Ae9332923-b413-4dae-8c10-3e3f3fce8f93",
+          "accountId": "557058:e9332923-b413-4dae-8c10-3e3f3fce8f93",
+          "emailAddress": "minhiriathaen@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/c8d9c174ce85418ebabafd8532144bf7?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FP-3.png",
+            "24x24": "https://secure.gravatar.com/avatar/c8d9c174ce85418ebabafd8532144bf7?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FP-3.png",
+            "16x16": "https://secure.gravatar.com/avatar/c8d9c174ce85418ebabafd8532144bf7?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FP-3.png",
+            "32x32": "https://secure.gravatar.com/avatar/c8d9c174ce85418ebabafd8532144bf7?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FP-3.png"
+          },
+          "displayName": "Minhiri Athaen",
+          "active": true,
+          "timeZone": "Europe/Budapest",
+          "accountType": "atlassian"
+        },
+        "updated": "2021-01-27T14:38:17.612+0100",
+        "status": {
+          "self": "https://minhiriathaen.atlassian.net/rest/api/3/status/5",
+          "description": "A resolution has been taken, and it is awaiting verification by reporter. From here issues are either reopened, or are closed.",
+          "iconUrl": "https://minhiriathaen.atlassian.net/images/icons/statuses/resolved.png",
+          "name": "Resolved",
+          "id": "5",
+          "statusCategory": {
+            "self": "https://minhiriathaen.atlassian.net/rest/api/3/statuscategory/3",
+            "id": 3,
+            "key": "done",
+            "colorName": "green",
+            "name": "Done"
+          }
+        },
+        "components": [],
+        "timeoriginalestimate": null,
+        "description": null,
+        "customfield_10010": null,
+        "customfield_10014": null,
+        "customfield_10015": null,
+        "customfield_10005": null,
+        "customfield_10006": null,
+        "security": null,
+        "customfield_10007": null,
+        "customfield_10008": null,
+        "customfield_10009": null,
+        "aggregatetimeestimate": null,
+        "summary": "negyedik_subtask",
+        "creator": {
+          "self": "https://minhiriathaen.atlassian.net/rest/api/3/user?accountId=557058%3Ae9332923-b413-4dae-8c10-3e3f3fce8f93",
+          "accountId": "557058:e9332923-b413-4dae-8c10-3e3f3fce8f93",
+          "emailAddress": "minhiriathaen@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/c8d9c174ce85418ebabafd8532144bf7?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FP-3.png",
+            "24x24": "https://secure.gravatar.com/avatar/c8d9c174ce85418ebabafd8532144bf7?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FP-3.png",
+            "16x16": "https://secure.gravatar.com/avatar/c8d9c174ce85418ebabafd8532144bf7?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FP-3.png",
+            "32x32": "https://secure.gravatar.com/avatar/c8d9c174ce85418ebabafd8532144bf7?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FP-3.png"
+          },
+          "displayName": "Minhiri Athaen",
+          "active": true,
+          "timeZone": "Europe/Budapest",
+          "accountType": "atlassian"
+        },
+        "subtasks": [],
+        "reporter": {
+          "self": "https://minhiriathaen.atlassian.net/rest/api/3/user?accountId=557058%3Ae9332923-b413-4dae-8c10-3e3f3fce8f93",
+          "accountId": "557058:e9332923-b413-4dae-8c10-3e3f3fce8f93",
+          "emailAddress": "minhiriathaen@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/c8d9c174ce85418ebabafd8532144bf7?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FP-3.png",
+            "24x24": "https://secure.gravatar.com/avatar/c8d9c174ce85418ebabafd8532144bf7?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FP-3.png",
+            "16x16": "https://secure.gravatar.com/avatar/c8d9c174ce85418ebabafd8532144bf7?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FP-3.png",
+            "32x32": "https://secure.gravatar.com/avatar/c8d9c174ce85418ebabafd8532144bf7?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FP-3.png"
+          },
+          "displayName": "Minhiri Athaen",
+          "active": true,
+          "timeZone": "Europe/Budapest",
+          "accountType": "atlassian"
+        },
+        "aggregateprogress": {
+          "progress": 0,
+          "total": 0
+        },
+        "customfield_10000": "{}",
+        "customfield_10001": null,
+        "customfield_10002": null,
+        "customfield_10003": null,
+        "customfield_10004": null,
+        "environment": null,
+        "duedate": null,
+        "progress": {
+          "progress": 0,
+          "total": 0
+        },
+        "votes": {
+          "self": "https://minhiriathaen.atlassian.net/rest/api/3/issue/TES-7/votes",
+          "votes": 0,
+          "hasVoted": false
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "10004",
+      "self": "https://minhiriathaen.atlassian.net/rest/api/3/issue/10004",
+      "key": "TES-5",
+      "fields": {
+        "statuscategorychangedate": "2021-01-27T13:46:07.146+0100",
+        "issuetype": {
+          "self": "https://minhiriathaen.atlassian.net/rest/api/3/issuetype/10006",
+          "id": "10006",
+          "description": "",
+          "iconUrl": "https://minhiriathaen.atlassian.net/secure/viewavatar?size=medium&avatarId=10316&avatarType=issuetype",
+          "name": "OpenQualityChecker Advice",
+          "subtask": true,
+          "avatarId": 10316
+        },
+        "parent": {
+          "id": "10002",
+          "key": "TES-3",
+          "self": "https://minhiriathaen.atlassian.net/rest/api/3/issue/10002",
+          "fields": {
+            "summary": "parent issue",
+            "status": {
+              "self": "https://minhiriathaen.atlassian.net/rest/api/3/status/1",
+              "description": "The issue is open and ready for the assignee to start work on it.",
+              "iconUrl": "https://minhiriathaen.atlassian.net/images/icons/statuses/open.png",
+              "name": "Open",
+              "id": "1",
+              "statusCategory": {
+                "self": "https://minhiriathaen.atlassian.net/rest/api/3/statuscategory/2",
+                "id": 2,
+                "key": "new",
+                "colorName": "blue-gray",
+                "name": "To Do"
+              }
+            },
+            "priority": {
+              "self": "https://minhiriathaen.atlassian.net/rest/api/3/priority/3",
+              "iconUrl": "https://minhiriathaen.atlassian.net/images/icons/priorities/medium.svg",
+              "name": "Medium",
+              "id": "3"
+            },
+            "issuetype": {
+              "self": "https://minhiriathaen.atlassian.net/rest/api/3/issuetype/10001",
+              "id": "10001",
+              "description": "Functionality or a feature expressed as a user goal.",
+              "iconUrl": "https://minhiriathaen.atlassian.net/secure/viewavatar?size=medium&avatarId=10315&avatarType=issuetype",
+              "name": "Story",
+              "subtask": false,
+              "avatarId": 10315
+            }
+          }
+        },
+        "timespent": null,
+        "project": {
+          "self": "https://minhiriathaen.atlassian.net/rest/api/3/project/10000",
+          "id": "10000",
+          "key": "TES",
+          "name": "Teszt",
+          "projectTypeKey": "software",
+          "simplified": false,
+          "avatarUrls": {
+            "48x48": "https://minhiriathaen.atlassian.net/secure/projectavatar?pid=10000&avatarId=10408",
+            "24x24": "https://minhiriathaen.atlassian.net/secure/projectavatar?size=small&s=small&pid=10000&avatarId=10408",
+            "16x16": "https://minhiriathaen.atlassian.net/secure/projectavatar?size=xsmall&s=xsmall&pid=10000&avatarId=10408",
+            "32x32": "https://minhiriathaen.atlassian.net/secure/projectavatar?size=medium&s=medium&pid=10000&avatarId=10408"
+          }
+        },
+        "fixVersions": [],
+        "aggregatetimespent": null,
+        "resolution": null,
+        "resolutiondate": null,
+        "workratio": -1,
+        "lastViewed": "2021-01-27T14:07:12.493+0100",
+        "watches": {
+          "self": "https://minhiriathaen.atlassian.net/rest/api/3/issue/TES-5/watchers",
+          "watchCount": 1,
+          "isWatching": true
+        },
+        "created": "2021-01-27T13:46:07.028+0100",
+        "customfield_10020": null,
+        "customfield_10021": null,
+        "customfield_10022": null,
+        "customfield_10023": null,
+        "priority": {
+          "self": "https://minhiriathaen.atlassian.net/rest/api/3/priority/3",
+          "iconUrl": "https://minhiriathaen.atlassian.net/images/icons/priorities/medium.svg",
+          "name": "Medium",
+          "id": "3"
+        },
+        "customfield_10024": null,
+        "customfield_10025": null,
+        "labels": [],
+        "customfield_10016": null,
+        "customfield_10017": null,
+        "customfield_10018": {
+          "hasEpicLinkFieldDependency": false,
+          "showField": false,
+          "nonEditableReason": {
+            "reason": "PLUGIN_LICENSE_ERROR",
+            "message": "The Parent Link is only available to Jira Premium users."
+          }
+        },
+        "customfield_10019": "0|i0000v:",
+        "aggregatetimeoriginalestimate": null,
+        "timeestimate": null,
+        "versions": [],
+        "issuelinks": [],
+        "assignee": null,
+        "updated": "2021-01-27T14:06:58.580+0100",
+        "status": {
+          "self": "https://minhiriathaen.atlassian.net/rest/api/3/status/1",
+          "description": "The issue is open and ready for the assignee to start work on it.",
+          "iconUrl": "https://minhiriathaen.atlassian.net/images/icons/statuses/open.png",
+          "name": "Open",
+          "id": "1",
+          "statusCategory": {
+            "self": "https://minhiriathaen.atlassian.net/rest/api/3/statuscategory/2",
+            "id": 2,
+            "key": "new",
+            "colorName": "blue-gray",
+            "name": "To Do"
+          }
+        },
+        "components": [],
+        "timeoriginalestimate": null,
+        "description": null,
+        "customfield_10010": null,
+        "customfield_10014": null,
+        "customfield_10015": null,
+        "customfield_10005": null,
+        "customfield_10006": null,
+        "customfield_10007": null,
+        "security": null,
+        "customfield_10008": null,
+        "customfield_10009": null,
+        "aggregatetimeestimate": null,
+        "summary": "masodik_subtask",
+        "creator": {
+          "self": "https://minhiriathaen.atlassian.net/rest/api/3/user?accountId=557058%3Ae9332923-b413-4dae-8c10-3e3f3fce8f93",
+          "accountId": "557058:e9332923-b413-4dae-8c10-3e3f3fce8f93",
+          "emailAddress": "minhiriathaen@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/c8d9c174ce85418ebabafd8532144bf7?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FP-3.png",
+            "24x24": "https://secure.gravatar.com/avatar/c8d9c174ce85418ebabafd8532144bf7?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FP-3.png",
+            "16x16": "https://secure.gravatar.com/avatar/c8d9c174ce85418ebabafd8532144bf7?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FP-3.png",
+            "32x32": "https://secure.gravatar.com/avatar/c8d9c174ce85418ebabafd8532144bf7?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FP-3.png"
+          },
+          "displayName": "Minhiri Athaen",
+          "active": true,
+          "timeZone": "Europe/Budapest",
+          "accountType": "atlassian"
+        },
+        "subtasks": [],
+        "reporter": {
+          "self": "https://minhiriathaen.atlassian.net/rest/api/3/user?accountId=557058%3Ae9332923-b413-4dae-8c10-3e3f3fce8f93",
+          "accountId": "557058:e9332923-b413-4dae-8c10-3e3f3fce8f93",
+          "emailAddress": "minhiriathaen@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/c8d9c174ce85418ebabafd8532144bf7?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FP-3.png",
+            "24x24": "https://secure.gravatar.com/avatar/c8d9c174ce85418ebabafd8532144bf7?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FP-3.png",
+            "16x16": "https://secure.gravatar.com/avatar/c8d9c174ce85418ebabafd8532144bf7?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FP-3.png",
+            "32x32": "https://secure.gravatar.com/avatar/c8d9c174ce85418ebabafd8532144bf7?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FP-3.png"
+          },
+          "displayName": "Minhiri Athaen",
+          "active": true,
+          "timeZone": "Europe/Budapest",
+          "accountType": "atlassian"
+        },
+        "aggregateprogress": {
+          "progress": 0,
+          "total": 0
+        },
+        "customfield_10000": "{}",
+        "customfield_10001": null,
+        "customfield_10002": null,
+        "customfield_10003": null,
+        "customfield_10004": null,
+        "environment": null,
+        "duedate": null,
+        "progress": {
+          "progress": 0,
+          "total": 0
+        },
+        "votes": {
+          "self": "https://minhiriathaen.atlassian.net/rest/api/3/issue/TES-5/votes",
+          "votes": 0,
+          "hasVoted": false
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "10001",
+      "self": "https://minhiriathaen.atlassian.net/rest/api/3/issue/10001",
+      "key": "TES-2",
+      "fields": {
+        "statuscategorychangedate": "2021-01-22T09:32:23.329+0100",
+        "issuetype": {
+          "self": "https://minhiriathaen.atlassian.net/rest/api/3/issuetype/10006",
+          "id": "10006",
+          "description": "",
+          "iconUrl": "https://minhiriathaen.atlassian.net/secure/viewavatar?size=medium&avatarId=10316&avatarType=issuetype",
+          "name": "OpenQualityChecker Advice",
+          "subtask": true,
+          "avatarId": 10316
+        },
+        "parent": {
+          "id": "10000",
+          "key": "TES-1",
+          "self": "https://minhiriathaen.atlassian.net/rest/api/3/issue/10000",
+          "fields": {
+            "summary": "OpenQualityChecker Advice group 2021.01.22 08:14",
+            "status": {
+              "self": "https://minhiriathaen.atlassian.net/rest/api/3/status/1",
+              "description": "The issue is open and ready for the assignee to start work on it.",
+              "iconUrl": "https://minhiriathaen.atlassian.net/images/icons/statuses/open.png",
+              "name": "Open",
+              "id": "1",
+              "statusCategory": {
+                "self": "https://minhiriathaen.atlassian.net/rest/api/3/statuscategory/2",
+                "id": 2,
+                "key": "new",
+                "colorName": "blue-gray",
+                "name": "To Do"
+              }
+            },
+            "priority": {
+              "self": "https://minhiriathaen.atlassian.net/rest/api/3/priority/3",
+              "iconUrl": "https://minhiriathaen.atlassian.net/images/icons/priorities/medium.svg",
+              "name": "Medium",
+              "id": "3"
+            },
+            "issuetype": {
+              "self": "https://minhiriathaen.atlassian.net/rest/api/3/issuetype/10005",
+              "id": "10005",
+              "description": "",
+              "iconUrl": "https://minhiriathaen.atlassian.net/secure/viewavatar?size=medium&avatarId=10300&avatarType=issuetype",
+              "name": "OpenQualityChecker Advice group",
+              "subtask": false,
+              "avatarId": 10300
+            }
+          }
+        },
+        "timespent": null,
+        "project": {
+          "self": "https://minhiriathaen.atlassian.net/rest/api/3/project/10000",
+          "id": "10000",
+          "key": "TES",
+          "name": "Teszt",
+          "projectTypeKey": "software",
+          "simplified": false,
+          "avatarUrls": {
+            "48x48": "https://minhiriathaen.atlassian.net/secure/projectavatar?pid=10000&avatarId=10408",
+            "24x24": "https://minhiriathaen.atlassian.net/secure/projectavatar?size=small&s=small&pid=10000&avatarId=10408",
+            "16x16": "https://minhiriathaen.atlassian.net/secure/projectavatar?size=xsmall&s=xsmall&pid=10000&avatarId=10408",
+            "32x32": "https://minhiriathaen.atlassian.net/secure/projectavatar?size=medium&s=medium&pid=10000&avatarId=10408"
+          }
+        },
+        "fixVersions": [],
+        "aggregatetimespent": null,
+        "resolution": null,
+        "resolutiondate": null,
+        "workratio": -1,
+        "watches": {
+          "self": "https://minhiriathaen.atlassian.net/rest/api/3/issue/TES-2/watchers",
+          "watchCount": 1,
+          "isWatching": false
+        },
+        "lastViewed": "2021-01-22T09:33:07.976+0100",
+        "created": "2021-01-22T09:14:33.332+0100",
+        "customfield_10020": null,
+        "customfield_10021": null,
+        "customfield_10022": null,
+        "customfield_10023": null,
+        "priority": {
+          "self": "https://minhiriathaen.atlassian.net/rest/api/3/priority/3",
+          "iconUrl": "https://minhiriathaen.atlassian.net/images/icons/priorities/medium.svg",
+          "name": "Medium",
+          "id": "3"
+        },
+        "customfield_10024": null,
+        "customfield_10025": null,
+        "labels": [],
+        "customfield_10016": null,
+        "customfield_10017": null,
+        "customfield_10018": {
+          "hasEpicLinkFieldDependency": false,
+          "showField": false,
+          "nonEditableReason": {
+            "reason": "PLUGIN_LICENSE_ERROR",
+            "message": "The Parent Link is only available to Jira Premium users."
+          }
+        },
+        "customfield_10019": "0|i00007:",
+        "aggregatetimeoriginalestimate": null,
+        "timeestimate": null,
+        "versions": [],
+        "issuelinks": [],
+        "assignee": {
+          "self": "https://minhiriathaen.atlassian.net/rest/api/3/user?accountId=557058%3Ae9332923-b413-4dae-8c10-3e3f3fce8f93",
+          "accountId": "557058:e9332923-b413-4dae-8c10-3e3f3fce8f93",
+          "emailAddress": "minhiriathaen@gmail.com",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/c8d9c174ce85418ebabafd8532144bf7?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FP-3.png",
+            "24x24": "https://secure.gravatar.com/avatar/c8d9c174ce85418ebabafd8532144bf7?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FP-3.png",
+            "16x16": "https://secure.gravatar.com/avatar/c8d9c174ce85418ebabafd8532144bf7?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FP-3.png",
+            "32x32": "https://secure.gravatar.com/avatar/c8d9c174ce85418ebabafd8532144bf7?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FP-3.png"
+          },
+          "displayName": "Minhiri Athaen",
+          "active": true,
+          "timeZone": "Europe/Budapest",
+          "accountType": "atlassian"
+        },
+        "updated": "2021-01-22T09:32:23.324+0100",
+        "status": {
+          "self": "https://minhiriathaen.atlassian.net/rest/api/3/status/5",
+          "description": "A resolution has been taken, and it is awaiting verification by reporter. From here issues are either reopened, or are closed.",
+          "iconUrl": "https://minhiriathaen.atlassian.net/images/icons/statuses/resolved.png",
+          "name": "Resolved",
+          "id": "5",
+          "statusCategory": {
+            "self": "https://minhiriathaen.atlassian.net/rest/api/3/statuscategory/3",
+            "id": 3,
+            "key": "done",
+            "colorName": "green",
+            "name": "Done"
+          }
+        },
+        "components": [],
+        "timeoriginalestimate": null,
+        "description": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Advice url: https://open-quality-checker.com/....\n"
+                },
+                {
+                  "type": "text",
+                  "text": "This coding issue was created 15 day(s) earlier\nThis is a Blocker-level warning\nFactor based on similar advice assessments"
+                }
+              ]
+            }
+          ],
+          "version": 1
+        },
+        "customfield_10010": null,
+        "customfield_10014": null,
+        "customfield_10015": null,
+        "customfield_10005": null,
+        "customfield_10006": null,
+        "security": null,
+        "customfield_10007": null,
+        "customfield_10008": null,
+        "aggregatetimeestimate": null,
+        "customfield_10009": null,
+        "summary": "OpenQualityChecker Advice NullPointerException",
+        "creator": {
+          "self": "https://minhiriathaen.atlassian.net/rest/api/3/user?accountId=5f84206e7d9637006fff2e9f",
+          "accountId": "5f84206e7d9637006fff2e9f",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/8dc8c764743e99f3ab08fba42d364908?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FQP-3.png",
+            "24x24": "https://secure.gravatar.com/avatar/8dc8c764743e99f3ab08fba42d364908?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FQP-3.png",
+            "16x16": "https://secure.gravatar.com/avatar/8dc8c764743e99f3ab08fba42d364908?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FQP-3.png",
+            "32x32": "https://secure.gravatar.com/avatar/8dc8c764743e99f3ab08fba42d364908?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FQP-3.png"
+          },
+          "displayName": "Open Quality Checker Plugin",
+          "active": true,
+          "timeZone": "Europe/Budapest",
+          "accountType": "app"
+        },
+        "subtasks": [],
+        "reporter": {
+          "self": "https://minhiriathaen.atlassian.net/rest/api/3/user?accountId=5f84206e7d9637006fff2e9f",
+          "accountId": "5f84206e7d9637006fff2e9f",
+          "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/8dc8c764743e99f3ab08fba42d364908?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FQP-3.png",
+            "24x24": "https://secure.gravatar.com/avatar/8dc8c764743e99f3ab08fba42d364908?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FQP-3.png",
+            "16x16": "https://secure.gravatar.com/avatar/8dc8c764743e99f3ab08fba42d364908?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FQP-3.png",
+            "32x32": "https://secure.gravatar.com/avatar/8dc8c764743e99f3ab08fba42d364908?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FQP-3.png"
+          },
+          "displayName": "Open Quality Checker Plugin",
+          "active": true,
+          "timeZone": "Europe/Budapest",
+          "accountType": "app"
+        },
+        "customfield_10000": "{}",
+        "aggregateprogress": {
+          "progress": 0,
+          "total": 0
+        },
+        "customfield_10001": null,
+        "customfield_10002": null,
+        "customfield_10003": null,
+        "customfield_10004": null,
+        "environment": null,
+        "duedate": null,
+        "progress": {
+          "progress": 0,
+          "total": 0
+        },
+        "votes": {
+          "self": "https://minhiriathaen.atlassian.net/rest/api/3/issue/TES-2/votes",
+          "votes": 0,
+          "hasVoted": false
+        }
+      }
+    }
+  ]
+}

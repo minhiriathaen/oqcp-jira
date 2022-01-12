@@ -1,0 +1,17 @@
+spring:
+  profiles: test
+  jpa.hibernate.ddl-auto: create-drop
+  datasource:
+    url: jdbc:hsqldb:mem:oqcp
+    username: SA
+    password:
+
+  liquibase:
+    enabled: false
+
+open-quality-checker:
+  base-url: http://localhost
+  ssl:
+    enabled: false
+
+async: false

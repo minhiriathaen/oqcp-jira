@@ -1,0 +1,34 @@
+spring:
+  profiles:
+    active: ${OQCP_SPRING_ACTIVE_PROFILE}
+  jpa.hibernate.ddl-auto: update
+  datasource:
+    url: jdbc:postgresql://${POSTGRES_HOST}:${POSTGRES_PORT}/${POSTGRES_DB}
+    username: ${POSTGRES_USER}
+    password: ${POSTGRES_PASSWORD}
+  security:
+    user:
+      name: ${OQCP_SPRING_MANAGEMENT_USER}
+      password: ${OQCP_SPRING_MANAGEMENT_PASSWORD}
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: [ "health" ]
+
+springdoc:
+  swagger-ui.path: /docs/swagger
+  api-docs.path: /docs
+
+atlassian:
+  connect:
+    require-auth-exclude-paths: /docs/**
+    allow-reinstall-missing-host: true
+
+addon:
+  key: oqcp-jira
+  base-url: ${ADDON_BASE_URL}
+
+open-quality-checker:
+  base-url: ${REACT_APP_OQC_BASE_URL}/backend

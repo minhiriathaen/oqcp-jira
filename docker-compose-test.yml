@@ -1,0 +1,14 @@
+version: "3.8"
+
+services:
+  jira-proxy:
+    image: repo.minhiriathaen.hu/oqcp/jira-proxy:${TAG:-latest}
+    ports:
+      - 80:80
+    
+  jira-frontend:
+    image: repo.minhiriathaen.hu/oqcp/jira-frontend:${TAG:-latest}
+    
+  jira-backend:
+    image: repo.minhiriathaen.hu/oqcp/jira-backend:${TAG:-latest}
+    
